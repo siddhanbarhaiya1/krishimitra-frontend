@@ -42,7 +42,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/api/crop-scans/upload",
+        "https://krishimitra-backend-k1n5.onrender.com/api/crop-scans/upload",
         {
           method: "POST",
           body: formData,
